@@ -68,9 +68,15 @@ git log --grep="bugfix"
 git config --global https.sslBackend schannel
 ```
 13. Trigger the CI/CD pipeline with a blank commit
-    ```
-    git commit --allow-empty -m 'Empty commit'
-    ```
+```
+git commit --allow-empty -m 'Empty commit'
+```
+14. Adding a Git subtree to your repository
+```
+git remote add -f eCommerceSolution.OrdersService https://github.com/mirajhad/eCommerceSolution.OrdersService.git
+git subtree add --prefix=eCommerceSolution.OrdersService eCommerceSolution.OrdersService main --squash
+
+```
 
 
 
