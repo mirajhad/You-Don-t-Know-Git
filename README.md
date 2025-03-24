@@ -77,6 +77,10 @@ git remote add -f eCommerceSolution.OrdersService https://github.com/mirajhad/eC
 git subtree add --prefix=eCommerceSolution.OrdersService eCommerceSolution.OrdersService main --squash
 
 ```
+15. visualizing Git history
+```
+gitk
+```
 
 
 
