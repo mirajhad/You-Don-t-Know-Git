@@ -67,7 +67,10 @@ git log --grep="bugfix"
 ```
 git config --global https.sslBackend schannel
 ```
-
+13. Trigger the CI/CD pipeline with a blank commit
+    ```
+    git commit --allow-empty -m 'Empty commit'
+    ```
 
 
 
